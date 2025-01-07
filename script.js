@@ -52,7 +52,7 @@ const playGame = (userChoice) => {
         }
         showWinner(userWin, userChoice, compChoice);
     } 
-}
+};
 
 
 choices.forEach((choice) => {
@@ -60,4 +60,4 @@ choices.forEach((choice) => {
         const userChoice = choice.getAttribute("id");
         playGame(userChoice);
     })
-})
+});
